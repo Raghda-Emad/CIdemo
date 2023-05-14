@@ -20,5 +20,4 @@ workflows:
     jobs:
       - printhello
       - print_world:
-          requires:
-            - printhello
+          
